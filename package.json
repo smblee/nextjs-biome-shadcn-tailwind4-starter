@@ -29,7 +29,7 @@
     "@types/node": "24.0.15",
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
-    "lefthook": "1.12.2",
+    "lefthook": "1.13.6",
     "tailwindcss": "4.1.11",
     "tw-animate-css": "1.3.6",
     "typescript": "5.9.2"
