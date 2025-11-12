@@ -22,9 +22,15 @@
       "semicolons": "asNeeded"
     }
   },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
   "linter": {
     "enabled": true,
     "domains": {
+      "react": "recommended",
       "next": "recommended"
     },
     "rules": {
