@@ -1,11 +1,11 @@
-# Next.js 15 Starter
+# Next.js 16 Starter
 
-Modern starter with Next.js 15, Tailwind v4, shadcn/ui, and Biome.
+Modern starter with Next.js 16, Tailwind v4, shadcn/ui, and Biome.
 
 ## Create New Project
 
 ```bash
-bun create smblee/nextjs15-biome-shadcn-tailwind4-starter my-app
+bun create smblee/nextjs-biome-shadcn-tailwind4-starter my-app
 cd my-app
 bun dev
 ```
@@ -26,7 +26,7 @@ bun dev
 
 ## What's Included
 
-- Next.js 15
+- Next.js 16
 - Tailwind CSS v4
 - shadcn/ui components
 - Biome (linting + formatting)
