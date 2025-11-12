@@ -30,6 +30,7 @@ bun dev
 - Tailwind CSS v4
 - shadcn/ui components
 - Biome (linting + formatting)
+- TS env (environment variables)
 - Bun package manager
 - TypeScript
 - Git hooks with Lefthook
