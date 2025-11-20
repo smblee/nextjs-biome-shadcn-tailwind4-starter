@@ -118,3 +118,95 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Game Styles */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: #000000;
+}
+#loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -64px;
+  margin-left: -200px;
+}
+@font-face {
+  font-family: "04b_19";
+  src: url("/fonts/FB.ttf");
+  src: url("/fonts/FB.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/FB.woff") format("woff"),
+    url("/fonts/FB.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+#score {
+  font-family: "04b_19", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16vh;
+  color: white;
+  text-shadow: -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000,
+    4px 4px 0 #000;
+  width: 4vw;
+  margin-left: -2vw;
+  margin-top: -40vh;
+}
+.prompt {
+  font-family: "04b_19", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 6vh;
+  color: white;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  white-space: nowrap;
+}
+kbd {
+  font-family: "04b_19", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 6vh;
+  padding: 0px 2px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  background: grey;
+  color: white;
+}
+.button {
+  font-family: "04b_19", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  width: auto;
+  pointer-events: auto;
+  padding: 12px 6px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 10vh;
+  opacity: 0.5;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  margin: 10px;
+  touch-action: manipulation;
+}
+.button:hover {
+  opacity: 1;
+}
+#flapButton {
+  text-align: center;
+  margin-left: 35vw;
+  margin-top: 20vh;
+  position: absolute;
+}
+#restartButton {
+  text-align: center;
+  margin-left: -48vw;
+  margin-top: 20vh;
+  position: absolute;
+}
